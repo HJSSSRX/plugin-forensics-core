@@ -1,0 +1,12 @@
+[project]
+name = "forhacker-plugin-forensics-core"
+version = "0.1.0"
+description = "forensics-core Cell plugin for ForHacker"
+requires-python = ">=3.12"
+dependencies = ["forhacker"]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=4.0",
+]
